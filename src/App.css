@@ -22,3 +22,59 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+.navigation {
+  list-style: none;
+  margin: 0;
+  background: #CED0CE;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+.navigation .hlink {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: #454545;
+  font-family: 'Overpass Mono';
+}
+
+.navigation .hlink:hover {
+  background: #568EA3;
+}
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+@media all and (max-width: 600px) {
+  .navigation {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
+
+  .navigation .hlink {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .navigation Link:last-of-type .hlink {
+    border-bottom: none;
+  }
+}
+/* font-family: 'Overpass Mono', monospace;
+font-family: 'Kumar One', cursive;
+font-family: 'Arvo', serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Bungee', cursive;
+font-family: 'Bungee Inline', cursive; */
