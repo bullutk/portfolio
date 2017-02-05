@@ -25,7 +25,7 @@
 .navigation {
   list-style: none;
   margin: 0;
-  background: #CED0CE;
+  background: #3D5A80;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -39,12 +39,12 @@
   text-decoration: none;
   display: block;
   padding: 1em;
-  color: #454545;
+  color: white;
   font-family: 'Overpass Mono';
 }
 
 .navigation .hlink:hover {
-  background: #568EA3;
+  background: #CED0CE;
 }
 
 @media all and (max-width: 800px) {
@@ -70,6 +70,82 @@
     border-bottom: none;
   }
 }
+.landing-page-name {
+  font-family: 'Bungee Shade';
+  font-size: 80px;
+  color: #3D5A80;
+  animation: landingName  ;
+}
+
+@keyframes landingName{ 
+  0%{ opacity: 0;}
+  100%{ opacity: 100; } 
+} 
+
+.abt {
+  font-family: 'Arvo';
+}
+
+#auto-type-box{
+  background-color: white;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  padding-top: 200px;
+
+}
+
+#first-line{
+  color: #454545; 
+  font-family: 'Overpass Mono';  
+  font-size: 20px;
+  margin: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  animation: firstLineSmall 5s steps(60, end);
+
+}
+
+@keyframes firstLine{ 
+  0%{width: 0%;}
+  33%{width: 33%;}
+  66%{width: 66%;}
+  100%{ width: 100%; } 
+} 
+
+@keyframes firstLineSmall{ 
+  0%{width: 0%;}
+  10%{width: 10%;}
+  20%{width: 20%;}
+  30%{width: 30%;}
+  40%{width: 40%;}
+  50%{width: 50%;}
+  60%{width: 60%;}
+  70%{width: 70%;}
+  80%{width: 80%;}
+  90%{width: 90%;}
+  100%{ width: 100%;} 
+}
+
+@media (min-width: @screen-sm-min) {
+  #first-line{
+    animation: firstLineSmall .95s, steps(60, end);
+  }
+}
+
+@media (min-width: @screen-md-min) {
+  #first-line{
+    animation: firstLineSmall 5s, steps(60, end);
+  }
+}
+
+@media (min-width: @screen-lg-min) {
+    animation: firstLineSmall 5s, steps(60, end);
+
+}
+
+ 
 /* font-family: 'Overpass Mono', monospace;
 font-family: 'Kumar One', cursive;
 font-family: 'Arvo', serif;
