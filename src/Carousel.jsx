@@ -22,7 +22,7 @@ export default class BootstrapCarousel extends Component{
 	render(){
 		return(
 			<div id="featured-projects" className="section">
-			<div id="featured-projects-header">Featured Projects</div>
+			<div id="featured-projects-header"></div>
 			<Carousel className="carousel" height={400} >
 			    <Carousel.Item>
 			      <img className= "carousel-image" alt="900x500" src='http://i.imgur.com/TcUhReP.png?3'/>
@@ -33,29 +33,19 @@ export default class BootstrapCarousel extends Component{
 			      </Carousel.Caption>
 			    </Carousel.Item>
 			    <Carousel.Item>
-			      <img className= "carousel-image" alt="900x500" src='http://i.imgur.com/TZLarQH.png?2'/>
+			      <img className= "carousel-image" alt="900x500" src='https://media.giphy.com/media/l0ExjH6eLfFRbkoyQ/source.gif'/>
 			      <Carousel.Caption>
 			        <h3>Big Orange Blackjack</h3>
 			        <div><a href = "#" target="_blank">Live Demo</a></div>
 			        <div><a href="https://github.com/bullutk/Blackjack" target="_blank">GitHub Repo</a></div>
 			      </Carousel.Caption>
 			    </Carousel.Item>
-			    <Carousel.Item>
-			      <img className= "carousel-image" alt="900x500" src='http://i.imgur.com/L6tD5tR.png?1'/>
+			      <img className= "carousel-image" alt="900x500" src="https://media.giphy.com/media/l0ExeE5g200EQSS2s/source.gif" />
 			      <Carousel.Caption>
 			        <h3>Movie App</h3>
 			        <div><a href = "#" target="_blank">Live Demo</a></div>
 			        <div><a href="" target="_blank">GitHub Repo</a></div>
 			      </Carousel.Caption>
-			    </Carousel.Item>
-			    <Carousel.Item>
-			      <Video />
-			      <Carousel.Caption>
-			        <h3>Movie App</h3>
-			        <div><a href = "#" target="_blank">Live Demo</a></div>
-			        <div><a href="" target="_blank">GitHub Repo</a></div>
-			      </Carousel.Caption>
-			    </Carousel.Item>
 			</Carousel>
 			</div>
 		);

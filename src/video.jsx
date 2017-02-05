@@ -4,9 +4,7 @@ export default class Video extends Component{
 	render(){
 		return(
 			<div>
-				<video width="320" height="240" controls>
-  					<source src="../videos/movie-app-demo.mov" type="video/mov" />
-				</video>
+  				<img src="https://media.giphy.com/media/l0ExeE5g200EQSS2s/source.gif" />
 			</div>
 		)
 	}
