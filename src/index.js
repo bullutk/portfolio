@@ -12,7 +12,7 @@ import Home from './route-components/Home';
 
 
 import './index.css';
-var destination = document.getElementById('root');
+const destination = document.getElementById('root');
 
 ReactDOM.render(
 	<Router history={hashHistory} >

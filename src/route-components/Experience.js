@@ -4,11 +4,11 @@ export default class Experience extends Component {
 	render(){
 		return(
 			<div className="exp">
-				<div>
-			
+				<div className="col-sm-6">
+					What I know
 				</div>
-				<div>
-			
+				<div className="col-sm-6">
+					What I am learning
 				</div>			
 			</div>
 		);
