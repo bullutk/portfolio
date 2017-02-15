@@ -12,12 +12,6 @@ export default class About extends Component {
 					I am a food truck owner turned full stack web developer based in Knoxville, TN. I love creating React apps and love modular code!
 				</div>
 
-				<div className="abt-skils">
-					What I know:
-				</div>
-				<div>
-					What I am learning:
-				</div>
 			</div>
 		);
 	}

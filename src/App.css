@@ -161,7 +161,6 @@
 .text-carousel{
   color: black;
   font-family: 'Overpass Mono'
-
 }
 
 .pro-main{
@@ -173,7 +172,15 @@
   font-size: 50px;
   color: #3D5A80;
   padding-bottom: .5em;
+}
 
+.exp{
+  display: flex;
+}
+
+.box-1 .box-2{
+  border: 1px black solid;
+  padding: 10px;
 }
  
 /* font-family: 'Overpass Mono', monospace;

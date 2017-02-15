@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css'; 
 import NavBar from './route-components/NavBar';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-
 
 export default class App extends Component {
   render(){
